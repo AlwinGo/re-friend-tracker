@@ -22,6 +22,13 @@ export class GuiModel {
                             "width": 1,
                             "required": true
                         },
+						{
+                            "id": "nickName",
+                            "type": "text",
+                            "name": "NickName",
+                            "width": 2,
+                            "required": true
+                        },
                         {
                             "id":   "location",
                             "type": "autocomplete",
