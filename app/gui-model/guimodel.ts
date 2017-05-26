@@ -29,12 +29,20 @@ export class GuiModel {
                             "width": 2,
                             "required": true
                         },
+			{
+                            "id":   "group",
+                            "type": "autocomplete",
+                            "name": "Group",
+                            "data": [ "Study", "Family", "School" ],
+                            "form": "GroupForm",
+                            "width": 2
+                        },
                         {
                             "id":   "location",
                             "type": "autocomplete",
                             "name": "Location",
                             "data": [ "Winterthur", "Zürich" ],
-                            "form": "GroupForm",
+                            "form": "LocationForm",
                             "width": 2
                         },
                         {
